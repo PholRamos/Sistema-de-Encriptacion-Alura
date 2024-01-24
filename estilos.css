@@ -1,0 +1,153 @@
+/* estilos.css */
+
+body {
+  font-family: 'Arial', sans-serif;  
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  width: 100%;
+  background: var(--Light-blue-light-blue-100, #F3F5FC);
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagen {
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+.formulario {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+div, button {
+  margin: 10px 0;
+}
+
+select, button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.resultado {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+button[name="encriptar"] {
+  display: flex;
+  width: 328px;
+  padding: 24px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: var(--Dark-blue-dark-blue-300, #0A3871);
+  color: white;
+  text-align: center;
+  line-height: 1.4; /* Ajusta según sea necesario para centrar verticalmente el texto */
+}
+
+button[name="desencriptar"] {
+  display: flex;
+  width: 328px;
+  padding: 24px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: var(--Dark-blue-dark-blue-300, #0A3871);
+  color: white;
+  text-align: center;
+  line-height: 1.4; /* Ajusta según sea necesario para centrar verticalmente el texto */
+}
+
+button[name="copiar"] {
+  display: flex;
+  width: 328px;
+  padding: 24px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: var(--Dark-blue-dark-blue-300, #0A3871);
+  color: white;
+  text-align: center;
+  line-height: 1.4; /* Ajusta según sea necesario para centrar verticalmente el texto */
+}
+
+section.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin-top: 10px; /* Ajusta el espacio entre los botones si es necesario */
+}
+
+button[name="encriptar"],
+button[name="desencriptar"],
+button[name="copiar"] {
+  display: flex;
+  width: 328px;
+  padding: 24px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: var(--Dark-blue-dark-blue-300, #0A3871);
+  color: white;
+  text-align: center;
+  line-height: 1.4; /* Ajusta según sea necesario para centrar verticalmente el texto */
+}

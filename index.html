@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de texto - Alura Challenges ONE</title>
+  <link rel="stylesheet" href="estilos.css">  
+</head>
+<body>
+
+  <header>
+    <h1>Encriptador de texto - Alura Challenges ONE</h1>
+  </header>
+  <div class="imagen">
+    <img src="Imagenes/imagen.png" alt="Imagen de un hombre con un diamante">
+  </div>
+  <main>
+    <section class="formulario">
+      <form id="formEncriptador" autocomplete="off">
+        <label for="textarea">Texto:</label>
+        <textarea id="textarea" name="textarea" rows="10" cols="50" placeholder="Ingrese aquí el texto..."></textarea>
+        
+        <button type="button" name="encriptar" onclick="realizarAccion('encriptar')">Encriptar</button>
+        <button type="button" name="desencriptar" onclick="realizarAccion('desencriptar')">Desencriptar</button>
+        <button type="button" name="copiar" onclick="copiarResultado()">Copiar</button>
+      </form>
+    </section>
+
+    <section class="resultado">
+      <h2>Resultado</h2>
+      <p id="texto-resultado"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desarrollado por <strong>Liu Phol Ramos</strong> en 2024</p>
+    <p>Contacto: <a href="mailto:liuphol@gmail.com">liuphol@gmail.com</a></p>
+    <p><a href="https://github.com/PholRamos/Sistema-de-Encriptacion-Alura.git">GitHub</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
